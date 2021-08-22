@@ -1,0 +1,13 @@
+.main-container{
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+    padding: 0 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+
+}

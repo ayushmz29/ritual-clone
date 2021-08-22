@@ -1,0 +1,68 @@
+.main-wallpaper-wrapper {
+    height: 575px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+
+}
+.main-wallpaper {
+    position: absolute;
+    
+    /* width: 100%; */
+    height: auto;
+    object-fit: contain;
+
+    padding: 0 20px;
+}
+
+.main-wallpaper-wrapper h1 {
+    position: absolute;
+    color: rgb(20, 43, 111);
+    font-size: 60px;
+    font-weight: 500;
+}
+@media (max-width: 806px) {
+    .main-wallpaper-wrapper h1 {   
+        font-size: 40px;
+    }
+    
+}
+.main-wallpaper-wrapper h1 div {
+    position: relative;
+    left: 50px;
+    font-weight: 500;
+}
+.main-wallpaper-wrapper h1 div em {
+    font-family: Dutch801, serif;
+    font-weight: 400;
+}
+.button-wrapper {
+    background-color: rgb(20, 43, 111);
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-wrapper:hover {
+    background-color: white;
+    color: rgb(20, 43, 111);
+
+}
+
+.button-wrapper a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    padding: 15px 44px;
+}
+.button-wrapper a:hover {
+    color: rgb(20, 43, 111);
+}
+
+
